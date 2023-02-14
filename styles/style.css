@@ -113,8 +113,8 @@ hr {
 .product_img img {
   width: 100%;
 }
-.product_details{
-    text-align: start;
+.product_details {
+  text-align: start;
 }
 .product_details h2 {
   font-size: 28px;
@@ -137,55 +137,91 @@ hr {
   align-items: center;
   gap: 20px;
 }
-.fa-star , .fa-star-half-stroke {
-    color: #FB8200;
-    font-size: 14px;
+.fa-star,
+.fa-star-half-stroke {
+  color: #fb8200;
+  font-size: 14px;
 }
-#rating_point{
-    font-size: 14px;
-    font-weight: 700;
-    color: #5E6366;
+#rating_point {
+  font-size: 14px;
+  font-weight: 700;
+  color: #5e6366;
 }
-#product_footer_text{
-    color: #787885;
-    font-size: 14px;
-    font-weight: 700;
+#product_footer_text {
+  color: #787885;
+  font-size: 14px;
+  font-weight: 700;
 }
-.see_more_button{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: end;
-    font-size: 16px;
-    font-weight: 700;
-    color: #E02C6DDE;
+.see_more_button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: end;
+  font-size: 16px;
+  font-weight: 700;
+  color: #e02c6dde;
 }
 
 /* Feature Product CSS Design */
-.fearured_container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 100px 350px;
-    gap: 70px;
+.fearured_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 350px;
+  gap: 70px;
 }
 
-.featured_details h2{
-    font-size: 45px;
-    font-weight: 800;
-    color: #0A0826;
-    margin: 0;
+.featured_details h2 {
+  font-size: 45px;
+  font-weight: 800;
+  color: #0a0826;
+  margin: 0;
 }
-.featured_details p{
-    color: #6C6C6C;
-    font-size: 18px;
+.featured_details p {
+  color: #6c6c6c;
+  font-size: 18px;
+  font-weight: 700;
+}
+.featured_details button {
+  background-color: #e02c6d;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Footer Section Css Design */
+footer {
+  background-color: #0a0826;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.footer_content {
+  margin: 0 350px;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+.footer_content h3{
+    font-size: 25px;
     font-weight: 700;
 }
-.featured_details button{
-    background-color: #E02C6D;
-    color: white;
-    padding: 10px 24px;
-    border-radius: 5px;
-    border: none;
-    font-size: 16px;
+.footer_content p{
     font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.footer_content a {
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 22px;
+
+}
+.footer_mR {
+  margin-right: 0 !important;
 }
